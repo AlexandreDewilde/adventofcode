@@ -51,4 +51,5 @@ int main() {
     }
     printf("%d\n", ans);
     printf("%d\n", ans2);
+    fclose(file);
 }

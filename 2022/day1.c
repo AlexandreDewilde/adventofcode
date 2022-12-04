@@ -20,6 +20,7 @@ void part_1() {
     }
 
     printf("%d\n", ans);
+    fclose(file);
 }
 
 void part_2() {
@@ -52,6 +53,7 @@ void part_2() {
     }
 
     printf("%d\n", a + b + c);
+    fclose(file);
 }
 
 int main() {
